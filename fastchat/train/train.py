@@ -24,7 +24,8 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset
 import transformers
-from transformers import Trainer
+# from transformers import Trainer
+from composer import Trainer
 from transformers.trainer_pt_utils import LabelSmoother
 
 from fastchat.conversation import SeparatorStyle
